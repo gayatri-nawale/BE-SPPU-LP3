@@ -39,7 +39,10 @@ public class p2 {
         System.out.print("Enter number of characters: ");
         int n = sc.nextInt();
 
-        PriorityQueue<Node> pq =  new PriorityQueue<>( (a, b) -> Integer.compare(a.freq, b.freq));   //Stores nodes according to their frequency. The node with the minimum frequency is removed first. -> ascending
+        PriorityQueue<Node> pq =  new PriorityQueue<>( (a, b) -> Integer.compare(a.freq, b.freq)); 
+//Stores nodes according to their frequency. The node with the minimum frequency is removed first. -> ascending
+//   It works as a Min-Heap.
+// The node having the minimum frequency is removed first using poll().
 
 
         // Input characters and frequencies
