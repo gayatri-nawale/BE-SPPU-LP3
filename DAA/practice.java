@@ -131,54 +131,91 @@ import java.util.concurrent.PriorityBlockingQueue;
 //     }
 // }
 
+// public class practice {
+//     static class Item {
+//         int profit, weight;
+//         double ratio;
+
+//         Item(int profit, int weight) {
+//             this.profit = profit;
+//             this.weight = weight;
+//             ratio = profit / (weight * 1.0);
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n;
+//         System.out.println("Enter no. of items : ");
+//         n = sc.nextInt();
+
+//         Item items[] = new Item[n];
+
+//         for (int i = 0; i < n; i++) {
+//             System.out.print("Enter profit and weight of " + (i + 1) + " item: ");
+//             int profit = sc.nextInt();
+//             int weight = sc.nextInt();
+//             items[i] = new Item(profit, weight);
+//         }
+
+//         System.out.print("Enter knapsack capacity: ");
+//         int k = sc.nextInt();
+
+//         // sort by ratio
+//         Arrays.sort(items, (a, b) -> (Double.compare(b.ratio, a.ratio)));
+
+//         double totalProfit = 0;
+
+//         for (int i = 0; i < n; i++) {
+//             if (items[i].weight <= k) {
+//                 totalProfit += items[i].profit;
+//                 k -= items[i].weight;
+
+//             } else {
+//                 double fraction = (double) k / items[i].weight;
+//                 totalProfit = totalProfit + items[i].profit * fraction;
+//                 k = 0;
+//                 break;
+//             }
+//         }
+//         System.out.println("Maximum profit is: " + totalProfit);
+
+//     }
+// }
+
 public class practice {
-    static class Item {
-        int profit, weight;
-        double ratio;
-
-        Item(int profit, int weight) {
-            this.profit = profit;
-            this.weight = weight;
-            ratio = profit / (weight * 1.0);
-        }
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n;
-        System.out.println("Enter no. of items : ");
-        n = sc.nextInt();
+        System.out.print("Enter no. of items: ");
+        int n = sc.nextInt();
 
-        Item items[] = new Item[n];
+        int profit[] = new int[n];
+        int weight[] = new int[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Enter profit and weight of " + (i + 1) + " item: ");
-            int profit = sc.nextInt();
-            int weight = sc.nextInt();
-            items[i] = new Item(profit, weight);
+            System.out.println("Enter profit and weight for item " + (i + 1) + " : ");
+            profit[i] = sc.nextInt();
+            weight[i] = sc.nextInt();
         }
 
-        System.out.print("Enter knapsack capacity: ");
+        System.out.println("knapsack capactiy: ");
         int k = sc.nextInt();
 
-        // sort by ratio
-        Arrays.sort(items, (a, b) -> (Double.compare(b.ratio, a.ratio)));
+        int dp[][] = new int[n + 1][k + 1];
 
-        double totalProfit = 0;
-
-        for (int i = 0; i < n; i++) {
-            if (items[i].weight <= k) {
-                totalProfit += items[i].profit;
-                k -= items[i].weight;
-
-            } else {
-                double fraction = (double) k / items[i].weight;
-                totalProfit = totalProfit + items[i].profit * fraction;
-                k = 0;
-                break;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                if (weight[i - 1] <= j) {
+                    int include = profit[i - 1] + dp[i - 1][j - weight[i-1]];
+                    int exclude = dp[i - 1][j];
+                    dp[i][j] = Math.max(include, exclude);
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
             }
         }
-        System.out.println("Maximum profit is: " + totalProfit);
 
+                System.out.println("Maximum Profit = " + dp[n][k]);
     }
 }
+
