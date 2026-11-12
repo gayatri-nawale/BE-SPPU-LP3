@@ -1724,9 +1724,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1887.877525175004,
-			"y": -4870.675261004714,
-			"z": 0.1653569913389164,
+			"x": -8043.32324365386,
+			"y": -201.4796077275248,
+			"z": 0.16748676535272064,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2007,12 +2007,165 @@
 			"meta": {}
 		},
 		{
-			"editingShapeId": null,
+			"x": 8599.327241189212,
+			"y": 2919.1322657158353,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:bMCNcXUoArQlfiSNy6LaC",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1078.357177734375,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 3.7362966357153913,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Applications of N-Queens Problem"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Constraint Satisfaction: Helps solve problems with specific rules and conditions."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Backtracking: Used to understand how backtracking works."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Combinatorial Optimization: Helps find valid arrangements among many possibilities."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Scheduling: Helps assign tasks or resources without conflicts."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Artificial Intelligence: Used in search algorithms to explore possible solutions."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aipjf",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:VSBGp63xpjVRZzDfnKB-C",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:0bw-0-OFa7wlv_RrTUjpV"
+				"shape:VSBGp63xpjVRZzDfnKB-C"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:VSBGp63xpjVRZzDfnKB-C",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -2330,6 +2483,45 @@
 				"isAnimated": false
 			},
 			"meta": {}
+		},
+		{
+			"x": 8331.916760242719,
+			"y": -625.215287702441,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:InAW8W5-wQavUoPlT30dO",
+			"type": "geo",
+			"props": {
+				"w": 6405.7159423828125,
+				"h": 9414.285278320312,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aelGI",
+			"typeName": "shape"
 		},
 		{
 			"id": "asset:1125885962",
@@ -2653,6 +2845,116 @@
 			},
 			"parentId": "page:page",
 			"index": "aMcHE",
+			"typeName": "shape"
+		},
+		{
+			"x": 8581.725001637195,
+			"y": 180.12838669473558,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-MMpuKZk5pFLFlDIsT3Gv",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1021.2689094123813,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 5.672955971778009,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Backtracking is an algorithmic technique in which we try one possible solution at a time."
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "If the position is safe, we place the queen and move to the next row."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "If the position is not safe, we try another column."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "If no safe position is available, we go back to the previous row and change the previous queen's position."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ageTQ",
 			"typeName": "shape"
 		},
 		{
@@ -4013,7 +4315,8 @@
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
 				"tldraw:geo": "rectangle",
-				"tldraw:font": "sans"
+				"tldraw:font": "sans",
+				"tldraw:color": "black"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -4046,7 +4349,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.75,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
@@ -4459,6 +4762,317 @@
 			},
 			"parentId": "page:page",
 			"index": "a661A",
+			"typeName": "shape"
+		},
+		{
+			"x": 8568.159531092679,
+			"y": -506.34549317457754,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6pRf1ReAt_-tWWIO5gyBT",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1355.2441486744033,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.541840479107684,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "The N-Queens problem is a problem in which we have to place "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "N"
+								},
+								{
+									"type": "text",
+									"text": " queens on an "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "N × N"
+								},
+								{
+									"type": "text",
+									"text": " chessboard such that no two queens attack each other."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "we must make sure that no two queens are present in the same row, column, or diagonal."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "afhtE",
+			"typeName": "shape"
+		},
+		{
+			"x": 8556.528202186095,
+			"y": 1314.7213345839796,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VSBGp63xpjVRZzDfnKB-C",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 5026.588143640989,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 4.491748735001199,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Time Complexity: O(N! × N)"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "The program places queens row by row."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "It tries different column positions for each queen."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "In the worst case, it explores up to N! possible arrangements."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "For every position, the "
+												},
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "code"
+														}
+													],
+													"text": "isSafe()"
+												},
+												{
+													"type": "text",
+													"text": " method checks the previous rows and diagonals, taking O(N) time."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Space Complexity: O(N²)"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "The chessboard is an N × N matrix."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "It requires O(N²) space."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Recursion requires O(N) additional stack space."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ahGtz",
 			"typeName": "shape"
 		},
 		{

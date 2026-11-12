@@ -183,39 +183,112 @@ import java.util.concurrent.PriorityBlockingQueue;
 //     }
 // }
 
-public class practice {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter no. of items: ");
-        int n = sc.nextInt();
+// public class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter no. of items: ");
+//         int n = sc.nextInt();
 
-        int profit[] = new int[n];
-        int weight[] = new int[n];
+//         int profit[] = new int[n];
+//         int weight[] = new int[n];
 
-        for (int i = 0; i < n; i++) {
-            System.out.println("Enter profit and weight for item " + (i + 1) + " : ");
-            profit[i] = sc.nextInt();
-            weight[i] = sc.nextInt();
-        }
+//         for (int i = 0; i < n; i++) {
+//             System.out.println("Enter profit and weight for item " + (i + 1) + " : ");
+//             profit[i] = sc.nextInt();
+//             weight[i] = sc.nextInt();
+//         }
 
-        System.out.println("knapsack capactiy: ");
-        int k = sc.nextInt();
+//         System.out.println("knapsack capactiy: ");
+//         int k = sc.nextInt();
 
-        int dp[][] = new int[n + 1][k + 1];
+//         int dp[][] = new int[n + 1][k + 1];
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= k; j++) {
-                if (weight[i - 1] <= j) {
-                    int include = profit[i - 1] + dp[i - 1][j - weight[i-1]];
-                    int exclude = dp[i - 1][j];
-                    dp[i][j] = Math.max(include, exclude);
-                } else {
-                    dp[i][j] = dp[i - 1][j];
-                }
-            }
-        }
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= k; j++) {
+//                 if (weight[i - 1] <= j) {
+//                     int include = profit[i - 1] + dp[i - 1][j - weight[i-1]];
+//                     int exclude = dp[i - 1][j];
+//                     dp[i][j] = Math.max(include, exclude);
+//                 } else {
+//                     dp[i][j] = dp[i - 1][j];
+//                 }
+//             }
+//         }
 
-                System.out.println("Maximum Profit = " + dp[n][k]);
-    }
-}
+//                 System.out.println("Maximum Profit = " + dp[n][k]);
+//     }
+// }
 
+// public class practice {
+//     static int count = 0;
+
+//     static boolean isSafe(int[][] board, int row, int col, int n) {
+//         for (int i = 0; i < row; i++) {
+//             if (board[i][col] == 1) {
+//                 return false;
+//             }
+
+//         }
+
+//         for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+//             if (board[i][j] == 1) {
+//                 return false;
+//             }
+
+//         }
+
+//         for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
+//             if (board[i][j] == 1) {
+//                 return false;
+//             }
+
+//         }
+//         return true;
+//     }
+
+//     static void solve(int[][] board, int row, int n) {
+//         if (row == n) {
+//             count++;
+//             System.out.println("Solution " + count + " : ");
+//             for (int i = 0; i < n; i++) {
+//                 for (int j = 0; j < n; j++) {
+//                     System.out.print(board[i][j] + " ");
+//                 }
+//                 System.out.println();
+//             }
+//             System.out.println();
+//             return;
+//         } else {
+//             for (int col = 0; col < n; col++) {
+//                 if (isSafe(board, row, col, n)) {
+//                     board[row][col] = 1;
+//                     solve(board, row + 1, n);
+//                     board[row][col] = 0;
+//                 }
+
+//             }
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n;
+//         System.out.println("Enter no. of queens: ");
+//         n = sc.nextInt();
+
+//         if (n <= 0) {
+//             System.out.println("please enter positive number");
+//             return;
+//         } else {
+//             int board[][] = new int[n][n];
+//             solve(board, 0, n);
+//             if (count == 0) {
+//                 System.out.println("no solution exists");
+//             } else {
+//                 System.out.println("Total solution:  " + count);
+//             }
+
+//         }
+//         sc.close();
+//     }
+// }
