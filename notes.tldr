@@ -35,8 +35,8 @@
 	},
 	"records": [
 		{
-			"x": -2803.8329029117367,
-			"y": 28533.973798653467,
+			"x": -2939.7720425751686,
+			"y": 30734.274036450108,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -96,6 +96,66 @@
 				"isAnimated": false
 			},
 			"meta": {}
+		},
+		{
+			"x": 4668.297906056644,
+			"y": 20667.319939574223,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4LN2Fls77hZjcaJfb-jHC",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1579.4285888671875,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 4.598566136664827,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Why don't we use R², RMSE and MAE here?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "These are commonly used for regression problems. For classification, we generally use Accuracy, Precision, Recall and F1-score."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0FANr",
+			"typeName": "shape"
 		},
 		{
 			"x": -200.22529755367898,
@@ -627,8 +687,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 2940.963679568194,
-			"y": 16683.358428767355,
+			"x": 2805.024539904762,
+			"y": 18883.658666563995,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -678,6 +738,86 @@
 			},
 			"parentId": "page:page",
 			"index": "ar262",
+			"typeName": "shape"
+		},
+		{
+			"x": 4745.854139809889,
+			"y": 26652.200196509857,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PyohOyzGMZ4Z7q5D-M72I",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 6278.924156113831,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 7.336415840707673,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "fit_transform()"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It learns the required parameters (like mean and standard deviation) from the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "training data and applies the transformation to it."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0LewU",
 			"typeName": "shape"
 		},
 		{
@@ -885,8 +1025,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2585.1215651035027,
-			"y": 26009.87249551273,
+			"x": -2721.0607047669346,
+			"y": 28210.17273330937,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1005,6 +1145,21 @@
 			"typeName": "shape"
 		},
 		{
+			"id": "asset:-497938121",
+			"type": "image",
+			"typeName": "asset",
+			"props": {
+				"name": "tldrawFile",
+				"src": "data:image/png;base64,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",
+				"w": 540,
+				"h": 148,
+				"fileSize": 2323,
+				"mimeType": "image/png",
+				"isAnimated": false
+			},
+			"meta": {}
+		},
+		{
 			"id": "asset:144701135",
 			"type": "image",
 			"typeName": "asset",
@@ -1020,8 +1175,8 @@
 			"meta": {}
 		},
 		{
-			"x": -2947.1845965643643,
-			"y": 31368.6623841761,
+			"x": -3083.123736227796,
+			"y": 33568.962621972736,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1357,6 +1512,69 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 4535.181145158712,
+			"y": 13044.190458594221,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:cWyKelEzEoQNczayMdft8",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 6856.330461619422,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 5.9553680419921875,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Binary classification is a supervised machine learning technique used to classify data into two categories."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Example:"
+								},
+								{
+									"type": "text",
+									"text": " Spam or Not Spam."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Ake2",
+			"typeName": "shape"
+		},
+		{
 			"x": 1846.0313460694947,
 			"y": 3258.9140257986373,
 			"rotation": 0,
@@ -1381,8 +1599,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2886.86732877092,
-			"y": 15477.399640228832,
+			"x": -3022.8064684343517,
+			"y": 17677.699878025473,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1895,6 +2113,30 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 8191.747694706216,
+			"y": 22433.969805365214,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OKqEzW7d_4L7SdGVnQXEG",
+			"type": "image",
+			"props": {
+				"w": 1860.539819955942,
+				"h": 527.6157698382522,
+				"assetId": "asset:2482342",
+				"playing": true,
+				"url": "",
+				"crop": null,
+				"flipX": false,
+				"flipY": false,
+				"altText": ""
+			},
+			"parentId": "page:page",
+			"index": "b0IdiE",
+			"typeName": "shape"
+		},
+		{
 			"id": "asset:-1762571097",
 			"type": "image",
 			"typeName": "asset",
@@ -2203,8 +2445,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2955.7312083202255,
-			"y": 18783.844011470075,
+			"x": -3091.6703479836574,
+			"y": 20984.144249266716,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2254,8 +2496,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3153.1016130003964,
-			"y": 10680.35855887409,
+			"x": -3289.0407526638282,
+			"y": 12880.65879667073,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2293,16 +2535,298 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 3414.142284997065,
-			"y": -30050.0220511098,
-			"z": 0.14854862911476024,
+			"x": 8529.590607038757,
+			"y": 23076.408291546184,
+			"rotation": 0.017453292519943295,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:oBG4L0yX4-t5elyYrVxsA",
+			"type": "image",
+			"props": {
+				"w": 1582.8911766238496,
+				"h": 433.8294335932032,
+				"assetId": "asset:-497938121",
+				"playing": true,
+				"url": "",
+				"crop": null,
+				"flipX": false,
+				"flipY": false,
+				"altText": ""
+			},
+			"parentId": "page:page",
+			"index": "b0JfbM",
+			"typeName": "shape"
+		},
+		{
+			"x": 5607.223364625315,
+			"y": -5074.140651442669,
+			"z": 0.07356143311224397,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": -3070.172874252781,
-			"y": 9990.297596429373,
+			"x": 4856.55191358684,
+			"y": 18755.888142715434,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Dt6BsAQLOxeKw8T7-fnmN",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 446.2857360839844,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 3.9523574158110883,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "applications of KNN and SVM."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "KNN:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Recommendation systems."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Pattern recognition."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Image classification."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Medical diagnosis."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "SVM:"
+								}
+							]
+						},
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Email spam detection."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Text classification."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Face recognition."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Image classification."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0G4xz",
+			"typeName": "shape"
+		},
+		{
+			"x": -3206.112013916213,
+			"y": 12190.597834226013,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2421,8 +2945,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2654.3386345792505,
-			"y": 13523.981443682093,
+			"x": -2790.2777742426824,
+			"y": 15724.281681478733,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2578,8 +3102,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2482.5821462918484,
-			"y": 19151.487389331058,
+			"x": -2618.5212859552803,
+			"y": 21351.7876271277,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2620,8 +3144,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2917.9988009611043,
-			"y": 15966.574967134593,
+			"x": -2785.9394170140895,
+			"y": 14424.619325462974,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2755,8 +3279,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2984.632189884148,
-			"y": 23148.86771547967,
+			"x": -3120.57132954758,
+			"y": 25349.167953276312,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2806,6 +3330,82 @@
 			},
 			"parentId": "page:page",
 			"index": "b00U7R",
+			"typeName": "shape"
+		},
+		{
+			"x": 4608.867098124946,
+			"y": 13776.298118606916,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tT_TDFnwNSGPfpWs3L3Rm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920.0000610351562,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 6.7210068840951465,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "K-Nearest Neighbors (KNN)"
+								},
+								{
+									"type": "text",
+									"text": " is a supervised machine learning algorithm used for "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "classification and regression."
+								},
+								{
+									"type": "text",
+									"text": " "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It predicts the class of a new data point based on the majority class among its K nearest neighboring data points."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Cv6I",
 			"typeName": "shape"
 		},
 		{
@@ -3037,8 +3637,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2929.6681790050884,
-			"y": 16722.784620902312,
+			"x": -3065.6073186685203,
+			"y": 18923.084858698952,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -3107,8 +3707,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2950.549083987241,
-			"y": 22148.715173191842,
+			"x": -2818.489700040226,
+			"y": 20606.759531520223,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -3161,8 +3761,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2916.833865081288,
-			"y": 17914.935689780985,
+			"x": -3052.77300474472,
+			"y": 20115.235927577625,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -3226,10 +3826,36 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:tmW2xKcOMQTMWf41Ebn17",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:tmW2xKcOMQTMWf41Ebn17"
+				"shape:7F6dYHb-jvKR0dqbyu9xh",
+				"shape:yVLkbN5gL9GRDY3ydEvtZ",
+				"shape:7O7CwRBEocQiKBYg4S8Jw",
+				"shape:2fbqI0KHJA3AC9sTWWjwo",
+				"shape:-6SfQ2cXbV86aEPaCuVqj",
+				"shape:73ONhoZXJyf1M5e4nq_Rc",
+				"shape:qQG7BasNWIhhFbt6xDzfQ",
+				"shape:welsCjaJzbq0Qiz0Eddqh",
+				"shape:pmGxUdI_zIj-2wWh_Tnu0",
+				"shape:xXRS-9gyCJvv-ZNpucJmV",
+				"shape:dc9m0iUFSS__DtAN2y0wk",
+				"shape:cVI0crQXsAlHlhTazaHVv",
+				"shape:b5qbdy1qg9EnNcZrIoL6P",
+				"shape:YORjY1ah4mWQsf8BKgbtx",
+				"shape:gtL01Dxv1_0148f2oBFy7",
+				"shape:CeU8OZXEU640nXkFHlHki",
+				"shape:ivjm_t2yoemR8FCP-YrxL",
+				"shape:LEroVYgEh87Iq-H9puck4",
+				"shape:vbi8KYZgrF03hXrrhwMwZ",
+				"shape:Li-9Y8EVZ06aqj0wH9LTm",
+				"shape:i5miq24414z5eWcSP4ooC",
+				"shape:AtSFFyMEB7xdz7PXFLMKt",
+				"shape:AVjuItPznjOC8f8Xdx4OX",
+				"shape:tmW2xKcOMQTMWf41Ebn17",
+				"shape:w9QkAHGT6RZOGk8rWyERL",
+				"shape:7n2svGJxZmW1t7r5wZOEZ",
+				"shape:QYLiOVv7Egn_bt_-SgL3M"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -3396,8 +4022,23 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2888.233184811422,
-			"y": 14800.231119571325,
+			"id": "asset:2482342",
+			"type": "image",
+			"typeName": "asset",
+			"props": {
+				"name": "tldrawFile",
+				"src": "data:image/png;base64,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",
+				"w": 335,
+				"h": 95,
+				"fileSize": 3265,
+				"mimeType": "image/png",
+				"isAnimated": false
+			},
+			"meta": {}
+		},
+		{
+			"x": -3024.1723244748537,
+			"y": 17000.531357367963,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -3454,8 +4095,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2987.9153408827615,
-			"y": 24298.68489241401,
+			"x": -3123.8544805461934,
+			"y": 26498.98513021065,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4068,6 +4709,21 @@
 			"typeName": "shape"
 		},
 		{
+			"id": "asset:1129346951",
+			"type": "image",
+			"typeName": "asset",
+			"props": {
+				"name": "tldrawFile",
+				"src": "data:image/png;base64,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",
+				"w": 649,
+				"h": 133,
+				"fileSize": 4115,
+				"mimeType": "image/png",
+				"isAnimated": false
+			},
+			"meta": {}
+		},
+		{
 			"x": 1839.691028702915,
 			"y": 2750.1560003799814,
 			"rotation": 0,
@@ -4331,8 +4987,246 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2777.9778523716072,
-			"y": 19773.09565190301,
+			"x": 4667.571836205139,
+			"y": 14913.276476329496,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:agHdp6CGNryZls2Kh2CLQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1033.8356172707179,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 5.804129862308133,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "KNN:"
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 0,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Choose the value of K"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Takes the new email."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "KNN calculates the distance between the new data point and existing data points."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "After calculating distances, KNN sorts the distances in ascending order and selects the K closest data points."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "The class with the highest number of votes becomes the predicted class."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "The new email is classified as Spam or Not Spam based on majority voting."
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Support Vector Machine is a supervised machine learning algorithm that finds the best decision "
+								}
+							]
+						},
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "boundary (hyperplane) to separate different classes."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0DjWr",
+			"typeName": "shape"
+		},
+		{
+			"x": -2645.9184684245924,
+			"y": 18231.140010231393,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4352,6 +5246,45 @@
 			},
 			"parentId": "page:page",
 			"index": "awHuv",
+			"typeName": "shape"
+		},
+		{
+			"x": 4449.983573936496,
+			"y": 12258.903643789246,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:x2nksz2A0n3hdFDk56zZX",
+			"type": "geo",
+			"props": {
+				"w": 7007.038164459509,
+				"h": 20691.424890817507,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"flipX": false,
+				"flipY": false,
+				"color": "light-red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "sans",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0By9M",
 			"typeName": "shape"
 		},
 		{
@@ -4394,8 +5327,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2911.4170984079847,
-			"y": 11049.734835206871,
+			"x": -3047.3562380714166,
+			"y": 13250.035073003512,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4449,8 +5382,32 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2790.8497955227795,
-			"y": 20687.300376484967,
+			"x": 8396.814818758878,
+			"y": 23644.313596832144,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RMlkyhY1w-mkTC_zmgeDg",
+			"type": "image",
+			"props": {
+				"w": 1899.9857813836272,
+				"h": 389.3653450293104,
+				"assetId": "asset:1129346951",
+				"playing": true,
+				"url": "",
+				"crop": null,
+				"flipX": false,
+				"flipY": false,
+				"altText": ""
+			},
+			"parentId": "page:page",
+			"index": "b0KkOA",
+			"typeName": "shape"
+		},
+		{
+			"x": -2926.7889351862113,
+			"y": 22887.600614281608,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4602,8 +5559,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2943.637252363465,
-			"y": 17551.418161282883,
+			"x": -3079.576392026897,
+			"y": 19751.718399079524,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5053,8 +6010,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2843.215218311164,
-			"y": 32501.09564076519,
+			"x": -2979.1543579745958,
+			"y": 34701.39587856183,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5092,6 +6049,102 @@
 			},
 			"parentId": "page:page",
 			"index": "b09xvj",
+			"typeName": "shape"
+		},
+		{
+			"x": 4700.094798207335,
+			"y": 17699.503638144975,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:npg4z3UT211YcKRVdCV_t",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920.0000610351562,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.99334281229828,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "bulletList",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Linear SVM:"
+												},
+												{
+													"type": "text",
+													"text": " Used when classes can be separated using a straight line or flat hyperplane."
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"marks": [
+														{
+															"type": "bold"
+														}
+													],
+													"text": "Non-linear SVM:"
+												},
+												{
+													"type": "text",
+													"text": " Used when classes cannot be separated by a straight boundary. It can use kernels such as RBF."
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0EslE",
 			"typeName": "shape"
 		},
 		{
@@ -5909,8 +6962,8 @@
 			"typeName": "document"
 		},
 		{
-			"x": -1788.8116679047735,
-			"y": 11712.179662990739,
+			"x": -1924.7508075682053,
+			"y": 13912.479900787379,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5936,14 +6989,14 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
+				"tldraw:font": "sans",
 				"tldraw:geo": "rectangle",
-				"tldraw:color": "black",
-				"tldraw:font": "sans"
+				"tldraw:color": "black"
 			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "move",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -5996,6 +7049,505 @@
 				"isAnimated": false
 			},
 			"meta": {}
+		},
+		{
+			"x": 4674.560350519524,
+			"y": 21206.726949103013,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_NuiIe4_X1PKAMJHexmWY",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1246.5774422268191,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.63583517339776,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Feature scaling "
+								},
+								{
+									"type": "text",
+									"text": "brings numerical features to a similar scale so that larger values do not dominate smaller values during model training."
+								}
+							]
+						},
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Accuracy?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Measures how "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "many predictions are correct out of all predictions."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Higher is better."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Precision?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Measures "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "how many predicted positive cases are actually positive."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Higher is better."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Recall?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Measures "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "how many actual positive cases are correctly identified."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Higher is better."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": " F1-score?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It is the harmonic mean of Precision and Recall."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Higher is better."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": " Overfitting?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "When a model learns training data too closely and performs poorly on new data."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": " Underfitting?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "When a model fails to learn important patterns from the training data."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": " KNN called a Lazy Learner?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Because it stores training data and performs calculations when a new prediction is needed."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Confusion Matrix?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "A table that compares actual and predicted classes to show correct and incorrect predictions."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Term"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Meaning"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "TP: Correctly predicted positive"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "TN: Correctly predicted negative"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "FP : Incorrectly predicted positive"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "FN: Incorrectly predicted negative"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Hopf",
+			"typeName": "shape"
 		},
 		{
 			"x": 1838.7101079980193,
@@ -6345,8 +7897,88 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1824.102425382971,
-			"y": 27052.2084507816,
+			"x": 4720.245567345933,
+			"y": 27536.03617907078,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hiMhewpOhYbD_vYKupu15",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 5556.241343835965,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 6.674736329511688,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "transform()"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It applies the already learned parameters to new data (testing data) without"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": " learning them again."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0MmBE",
+			"typeName": "shape"
+		},
+		{
+			"x": -1960.0415650464029,
+			"y": 29252.50868857824,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -6491,8 +8123,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2615.4104988057743,
-			"y": 29501.663739444466,
+			"x": -2751.349638469206,
+			"y": 31701.963977241106,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -7088,8 +8720,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2944.7329936801575,
-			"y": 18441.245496170064,
+			"x": -3080.6721333435894,
+			"y": 20641.545733966705,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -7136,8 +8768,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2956.4844800599294,
-			"y": 22648.791444335762,
+			"x": -3092.4236197233613,
+			"y": 24849.091682132403,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
