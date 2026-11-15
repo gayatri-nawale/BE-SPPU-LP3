@@ -1,4 +1,4 @@
-// Design n-Queens matrix having first Queen placed. Use backtracking to place remaining
+// Design n-Queens matrix having first Queen placed. Use backtracking to place remaining 
 // Queens to generate the final n-queen‘s matrix.
 import java.util.*;
 public class p5 {
