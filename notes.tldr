@@ -555,8 +555,8 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": 66.1032077623222,
-			"y": 2799.705873203742,
+			"x": 64.91797137827598,
+			"y": 2801.7242854191536,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -570,7 +570,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -642,7 +642,7 @@
 								},
 								{
 									"type": "text",
-									"text": " measures how close the data points are to their cluster's center (centroid)."
+									"text": " measures how close the data points are to their centroid."
 								}
 							]
 						},
@@ -1343,8 +1343,8 @@
 			"meta": {}
 		},
 		{
-			"x": 52.22191766789001,
-			"y": 1225.0578078646977,
+			"x": 51.00624436446742,
+			"y": 1223.6235556747179,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1352,8 +1352,8 @@
 			"id": "shape:LPSvBRhTVzDO8o_A2VXAR",
 			"type": "image",
 			"props": {
-				"w": 1058,
-				"h": 526,
+				"w": 1060.3198319810704,
+				"h": 527.1533380170539,
 				"assetId": "asset:-267844785",
 				"playing": true,
 				"url": "",
@@ -1367,8 +1367,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 50.69314219986518,
-			"y": 1767.7567619356141,
+			"x": 49.4741168149485,
+			"y": 1767.5124628550348,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1376,8 +1376,8 @@
 			"id": "shape:Lky3g2Iir4dbfU75XBPcH",
 			"type": "image",
 			"props": {
-				"w": 810,
-				"h": 913,
+				"w": 811.7760528399498,
+				"h": 915.0018965961409,
 				"assetId": "asset:1484852010",
 				"playing": true,
 				"url": "",
@@ -1391,8 +1391,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 62.4186852011062,
-			"y": 1133.8204215833102,
+			"x": 61.225369919826335,
+			"y": 1132.1861170241755,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1406,7 +1406,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -2174,8 +2174,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 17216.837337589248,
-			"y": 13789.094191525937,
+			"x": 17181.599978634298,
+			"y": 13775.970012787882,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2251,8 +2251,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 57.41638336570577,
-			"y": 3371.1498365514544,
+			"x": 56.21209974815429,
+			"y": 3374.421229845848,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2266,7 +2266,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -2775,7 +2775,19 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Clustering is an unsupervised machine learning technique that groups similar data points into different clusters."
+									"text": "Clustering is an unsupervised machine learning technique that groups data points into clusters,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Similar data points are grouped together, while dissimilar data points are placed in different clusters."
 								}
 							]
 						}
@@ -3233,7 +3245,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 6559.180155930764,
+			"x": 3067.7519332745146,
 			"y": -10742.75766136144,
 			"z": 0.05,
 			"meta": {},
@@ -3824,8 +3836,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 41.60894930353061,
-			"y": 175.0783297631824,
+			"x": 40.37000539195651,
+			"y": 171.34183185225083,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -3839,7 +3851,7 @@
 				"font": "sans",
 				"textAlign": "middle",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -4979,8 +4991,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 65.42851316654742,
-			"y": 2889.4841245322878,
+			"x": 64.24179740811451,
+			"y": 2891.6993897331777,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4988,8 +5000,8 @@
 			"id": "shape:53MVO88nkKz9TExvAP2_3",
 			"type": "image",
 			"props": {
-				"w": 956.454504515721,
-				"h": 142.46362447910803,
+				"w": 958.551681971311,
+				"h": 142.775998460399,
 				"assetId": "asset:1620288058",
 				"playing": true,
 				"url": "",
@@ -5005,7 +5017,9 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
+			"selectedShapeIds": [
+				"shape:-NpmODCFd-G3-SXVwAK1U"
+			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -5349,8 +5363,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 35.47123775887121,
-			"y": 944.2403292383351,
+			"x": 34.21883594603787,
+			"y": 942.1903404058594,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5364,7 +5378,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -5822,6 +5836,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 17172.405757833392,
+			"y": 14284.446377998403,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GUc2vbGj5OxkvKGue2FEM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920.0000610351562,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "A dendrogram is a tree-like diagram used in hierarchical clustering to show how data points or clusters are grouped together at different levels."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b13EAr",
+			"typeName": "shape"
+		},
+		{
 			"id": "asset:1125885962",
 			"type": "image",
 			"typeName": "asset",
@@ -5960,8 +6016,8 @@
 			"meta": {}
 		},
 		{
-			"x": 37.22141901243049,
-			"y": 72.86041135868618,
+			"x": 35.972854748222744,
+			"y": 68.8997845288959,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5975,7 +6031,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -6035,8 +6091,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 36.61126844381761,
-			"y": 0,
+			"x": 35.361366328188524,
+			"y": -4.120384781041139,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -6050,7 +6106,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -6305,8 +6361,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 57.47275390845425,
-			"y": 3203.323104826073,
+			"x": 56.268593892213175,
+			"y": 3206.226511523553,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -6320,7 +6376,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -6452,6 +6508,106 @@
 			},
 			"parentId": "page:page",
 			"index": "aMcHE",
+			"typeName": "shape"
+		},
+		{
+			"x": 17162.742282732288,
+			"y": 14078.238461258381,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:A7KESx0xq3Gt0eD2dv68m",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 947.857177734375,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "There are two types:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Agglomerative"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Bottom-up approach. Starts with individual data points and merges them into clusters."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Divisive"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Top-down approach. Starts with one large cluster and divides it into smaller clusters."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b12HzB",
 			"typeName": "shape"
 		},
 		{
@@ -6694,8 +6850,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 0,
-			"y": -170.63964993818445,
+			"x": -1.3301780999408948,
+			"y": -175.1341890832773,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -6703,8 +6859,8 @@
 			"id": "shape:VQlkbjW5DpzMPC-5qPvd3",
 			"type": "geo",
 			"props": {
-				"w": 1213.3020332702272,
-				"h": 4099.6265715031805,
+				"w": 1215.9623894701117,
+				"h": 4108.615649793368,
 				"geo": "rectangle",
 				"dash": "draw",
 				"growY": 0,
@@ -9352,8 +9508,8 @@
 			"typeName": "document"
 		},
 		{
-			"x": 17215.642278797583,
-			"y": 13888.96955944278,
+			"x": 17187.596266967266,
+			"y": 13837.73160963865,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -9470,7 +9626,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1406.2857666015625,
+				"w": 1057.1429443359375,
 				"h": 745.1428833007812
 			},
 			"insets": [
@@ -9488,7 +9644,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.75,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": null,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
@@ -9515,8 +9671,8 @@
 			"meta": {}
 		},
 		{
-			"x": 62.139123709226624,
-			"y": 2728.457213483758,
+			"x": 60.945195445254285,
+			"y": 2730.319401767765,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -9530,7 +9686,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -9563,8 +9719,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 51.44990397818037,
-			"y": 3115.6810465177914,
+			"x": 50.232537912899716,
+			"y": 3118.3922841701387,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -9578,7 +9734,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -10692,7 +10848,7 @@
 			"type": "geo",
 			"props": {
 				"w": 1260.1944115768601,
-				"h": 4192.041963409751,
+				"h": 3430.3037990532066,
 				"geo": "rectangle",
 				"dash": "draw",
 				"growY": 0,
@@ -10833,8 +10989,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 14331.564277609208,
-			"y": 11914.521355400346,
+			"x": 14335.879116608525,
+			"y": 11797.662780745657,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -11017,8 +11173,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 24.467839489523612,
-			"y": 331.73223093721026,
+			"x": 23.191310989350313,
+			"y": 328.3392214288324,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -11026,8 +11182,8 @@
 			"id": "shape:M0OMG-trqeahghslfh2Zz",
 			"type": "image",
 			"props": {
-				"w": 1043,
-				"h": 579,
+				"w": 1045.2869421136638,
+				"h": 580.26954888189,
 				"assetId": "asset:340777489",
 				"playing": true,
 				"url": "",
@@ -11296,8 +11452,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 47.14842560793113,
-			"y": 241.98727761075133,
+			"x": 45.92162787243433,
+			"y": 238.397488128021,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -11311,7 +11467,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -11733,8 +11889,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 66.71282186147073,
-			"y": 2852.934804626657,
+			"x": 65.52892215255088,
+			"y": 2855.069929675179,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -11748,7 +11904,7 @@
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0021926578270985,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -11778,6 +11934,48 @@
 			},
 			"parentId": "shape:-NpmODCFd-G3-SXVwAK1U",
 			"index": "aHQ0X",
+			"typeName": "shape"
+		},
+		{
+			"x": 17168.809988256897,
+			"y": 13995.35635126256,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:B9w8IFRugKe9vwu7Uc1PX",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 920.0000610351562,
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Hierarchical clustering is an unsupervised machine learning algorithm that groups similar data points into clusters by creating a hierarchy (tree-like structure)."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b11AXj",
 			"typeName": "shape"
 		},
 		{

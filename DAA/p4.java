@@ -88,3 +88,4 @@ public class p4 {
 // knapsack capactiy: 
 // 8
 // Maximum Profit = 6
+
