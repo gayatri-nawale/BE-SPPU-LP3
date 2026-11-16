@@ -81,3 +81,5 @@ public class nqueengame {
         sc.close();
     }
 }
+
+

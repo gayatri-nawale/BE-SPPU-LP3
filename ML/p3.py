@@ -1,7 +1,6 @@
 # Implement Gradient Descent Algorithm to find the local minima of a function.,
 # For example, find the local minima of the function y=(x+3)² starting from the point x=2.
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -17,7 +16,8 @@ def gradient(x):
 x = 2
 learning_rate = 0.1
 iterations = 100
-tolerance = 0.000001  # Tolerance is a small threshold used to stop Gradient Descent when the change between consecutive values becomes very small.
+tolerance = 0.000001 # 5 zero
+# Tolerance is a small threshold used to stop Gradient Descent when the change between consecutive values becomes very small.
 
 # Store values for plotting
 path = [x]
